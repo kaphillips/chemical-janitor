@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chemical_janitor"
+version = "0.1.0"
+description = "A Python package to clean messy chemical names and identifiers scraped from data sources."
+authors = ["kaphillips <phillips.katherine@epa.gov>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
